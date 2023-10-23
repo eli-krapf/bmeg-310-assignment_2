@@ -210,7 +210,9 @@ pca.recall
 ```
 
 **Q3.3**
+Looking at the accuracy, precision and recall results of the linear regression model, that was based on the whole dataset versus the model that was only based on the top 5 PCAs, there are no clear significant differences. Both models are have an accuracy rate of 93% and the precision and recall of both models is around the 90% mark.
 
+By using the only the top 5 PCAs the results of the model do not improve nor worsen. Therefore it might be more efficient to use PCA model, since the same performance, in terms of accuracy, precision and recall, can be achieved using a lower-dimesional representation of the data.
 
 **Q3.4**
 
